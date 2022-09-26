@@ -11,29 +11,29 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  font-size: 'Fira sans', sans-serif;
+  font-family: 'Fira sans', sans-serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 500px;
   background: var(--dark);
   color: #fff;
 }
 
 header {
-  padding: 2rem 1rem;
+  padding: 32px 16px;
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-size: 40px;
   font-weight: 300;
   color: var(--gray);
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 #new-task-form {
@@ -50,11 +50,11 @@ input, button {
 #new-task-input {
   flex: 1 1 0%;
   background-color: var(--darker);
-  padding: 1rem;
-  border-radius: 1rem;
-  margin-right: 1rem;
+  padding: 16px;
+  border-radius: 16px;
+  margin-right: 16px;
   color: var(--light);
-  font-size: 1.25rem;
+  font-size: 20px;
 }
 
 #new-task-input::placeholder{
@@ -63,7 +63,7 @@ input, button {
 
 #new-task-submit {
   color: var(--pink);
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 700;
   cursor: pointer;
   transition: 0.4s;
@@ -79,30 +79,30 @@ input, button {
 
 main {
   flex: 1 1 0%;
-  padding: 2rem 1rem;
+  padding: 32px 16px;
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
 
 .task-list {
-  padding: 1rem;
+  padding: 16px;
 }
 
 .task-list h2 {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 300;
   color: var(--gray);
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 #tasks .task {
   display: flex;
   justify-content: space-between;
   background-color: var(--darkest);
-  padding: 1rem;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
+  padding: 16px;
+  border-radius: 16px;
+  margin-bottom: 16px;
 }
 
 #tasks .task .content {
@@ -112,7 +112,7 @@ main {
 
 #tasks .task .content .text {
   color: var(--light);
-  font-size: 1.125rem;
+  font-size: 18px;
   width: 100%;
   display: block;
   transition: 0.4s;
@@ -124,13 +124,13 @@ main {
 
 #tasks .task .actions {
   display: flex;
-  margin: 0 -0.5rem;
+  margin: 0 -8px;
 }
 
 .task .actions button {
   cursor: pointer;
-  margin: 0 0.5rem;
-  font-size: 1.125rem;
+  margin: 0 16px;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   transition: 0.4s;
